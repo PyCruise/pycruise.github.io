@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>PyCruise 2015 - Costs</title>
 
     <!-- Bootstrap -->
     <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,35 +17,72 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-  <div class="container">
-  <div class="header">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="/">Home</a></li>
-            <li role="presentation"><a href="/why.html">Why a cruise?</a></li>
-            <li role="presentation"><a href="/costs.html">Costs</a></li>
-            <li role="presentation"><a href="/kids.html">Kids</a></li>
-            <li role="presentation"><a href="/important.html">Important details</a></li>
-            <li role="presentation"><a href="/coc.html">Code of Conduct</a></li>
-            <li role="presentation"><a href="/register.html">Register</a></li>
-            <li role="presentation"><a href="/contact.html">Contact</a></li>
+  <body role="document">
+  <!-- <div class="header">
+          <h1 class="text-muted">&#128674;</h1>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <li><a href="/">Home</a></li>
+            <li><a href="/why.html">Why a cruise?</a></li>
+            <li><a href="/costs.html">Costs</a></li>
+            <li><a href="/kids.html">Kids</a></li>
+            <li><a href="/important.html">Important details</a></li>
+            <li><a href="/coc.html">Code of Conduct</a></li>
+            <li><a href="/register.html">Register</a></li>
+            <li><a href="/contact.html">Contact</a></li>
           </ul>
-        </nav>
-        <h1 class="text-muted">&#128674;</h1>
-      </div>
-  	
 
-      <div class="col-md-10">
+      </div> -->
+
+      <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </li>
+          <a class="navbar-brand" href="#">PyCruise</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/costs.html">Costs</a></li>
+            <li><a href="/important.html">Important details</a></li>
+            <li><a href="/coc.html">Code of Conduct</a></li>
+            <li><a href="/register.html">Register</a></li>
+            <li><a href="/help.html">Help</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li> -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container col-md-12">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-1">
         <h1>Register</h1>
         <p class="lead">The registration process for PyCruise is going to work differently than it does at most conferences. Read this page carefully!</p>
         <p>If you want to register, please fill out the form below. Within 24 hours, you'll get an email with our group code. Once you have that, you'll need to call Carnival and reserve your room. You can either pay the full amount, or you can put down $200 per person.</p>
         <p>When you call, make sure to give them our group code! Without it, you're not actually attending the conference.</p>
         <p>If you have trouble with calling Carnival, let me know in the form below, and we'll work something out.</p>
-        <iframe src="https://docs.google.com/forms/d/1JxNuozVM5M79dfPbKoEMAiJdY8C8xNhr3-F8IfK1s-8/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
+        <iframe src="https://docs.google.com/forms/d/1JxNuozVM5M79dfPbKoEMAiJdY8C8xNhr3-F8IfK1s-8/viewform?embedded=true" width="700" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
       </div>
-
+        <footer class="footer">
+        <div class="col-md-offset-1">Follow us at <a href="https://twitter.com/">@PyCruise</a></div>
+      </footer>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
