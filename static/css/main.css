@@ -31,3 +31,9 @@
  .jumbotron {
   background: url(http://colourlovers.com.s3.amazonaws.com/images/patterns/4781/4781818.png) repeat-x #2FB8AC;
   background-position-y: 101%;
+}
+
+.btn-success {
+  background-color: #3c983c;
+  border-color: #2c882c;
+}
