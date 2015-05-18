@@ -28,6 +28,6 @@
  	font-weight: bold
  }
  
- jumbotron {
+ .jumbotron {
   background: url(http://colourlovers.com.s3.amazonaws.com/images/patterns/4781/4781818.png) repeat-x #2FB8AC;
   background-position-y: 101%;
